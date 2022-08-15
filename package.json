@@ -17,7 +17,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "@iconify-json/ic": "^1.1.8",
     "@types/node": "^18.7.3",

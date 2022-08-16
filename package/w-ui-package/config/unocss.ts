@@ -13,7 +13,7 @@ const colors = [
   "indigo",
   "purple",
   "pink",
-]
+];
 
 const icons = [
   "search",
@@ -24,15 +24,16 @@ const icons = [
   "delete",
   "add",
   "share",
-]
+];
 
 const safelist = [
   ...colors.map((v) => `bg-${v}-500`),
   ...colors.map((v) => `hover:bg-${v}-700`),
-  ...icons.map((v) => `i-ic-baseline-${v}`)
-]
+  ...icons.map((v) => `i-ic-baseline-${v}`),
+];
 
-export default () => Unocss({
-  safelist,
-  presets: [presetUno(), presetAttributify(), presetIcons()]
-})
+export default () =>
+  Unocss({
+    safelist,
+    presets: [presetUno(), presetAttributify(), presetIcons()],
+  });

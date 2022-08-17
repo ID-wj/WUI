@@ -1,7 +1,7 @@
 // import SMButton from "../SMButton";
 
 // import { shallowMount } from "@vue/test-utils";
-// import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "vitest";
 
 // describe("color", () => {
 //   test("default", () => {
@@ -24,3 +24,10 @@
 //     expect(wrapper.classes().includes("bg-red-500")).toBe(true);
 //   });
 // });
+
+describe("测试", () => {
+  test("测试", () => {
+    const temp = 1 + 1;
+    expect(temp).toBe(2);
+  });
+});

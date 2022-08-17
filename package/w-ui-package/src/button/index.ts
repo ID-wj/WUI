@@ -1,8 +1,10 @@
-import { defineComponent, h } from "vue";
+import WButton from "./Button";
+import { App } from "vue";
 
-export default defineComponent({
-  name: "WButton",
-  render() {
-    return h("button", null, "Mybutton");
+export { WButton };
+
+export default {
+  install(app: App) {
+    app.component(WButton.name, WButton);
   },
-});
+};

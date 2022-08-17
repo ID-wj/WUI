@@ -1,5 +1,5 @@
 {
-  "name": "w-ui",
+  "name": "w-ui-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -34,6 +34,7 @@
     "eslint-plugin-vue": "^9.3.0",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
+    "roughjs": "^4.5.2",
     "ts-node": "^10.9.1",
     "unocss": "^0.45.6",
     "vite": "^3.0.5",

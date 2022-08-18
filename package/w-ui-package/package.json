@@ -26,6 +26,7 @@
     "@vitejs/plugin-vue": "^3.0.1",
     "@vitejs/plugin-vue-jsx": "^2.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
+    "@w-ui/hooks": "workspace:^0.0.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.13.0",
     "eslint-formatter-pretty": "^4.1.0",

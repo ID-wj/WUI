@@ -1,6 +1,7 @@
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType, ref } from "vue";
 import "uno.css";
 // import { } from "roughjs";
+import { useElementSize } from "@w-ui/hooks";
 
 export type IColor =
   | "black"
@@ -27,6 +28,9 @@ export default defineComponent({
   name: "WButton",
   props,
   setup(props, { slots }) {
+    const button = ref(null);
+    const { width, height } = useElementSize(button);
+
     return () => (
       <button
         class={`
@@ -51,12 +55,13 @@ export default defineComponent({
           ""
         )}
         <div
+          ref={button}
           class={`
             absolute
             inset-0
           `}
         >
-          <svg></svg>
+          <svg width={width.value} height={height.value}></svg>
         </div>
         {slots.default ? slots.default() : ""}
       </button>

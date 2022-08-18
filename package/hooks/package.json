@@ -1,0 +1,14 @@
+{
+  "name": "@w-ui/hooks",
+  "version": "0.0.1",
+  "description": "w-ui hooks",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ID-wj",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.37"
+  }
+}

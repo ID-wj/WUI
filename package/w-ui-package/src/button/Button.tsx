@@ -30,7 +30,6 @@ export default defineComponent({
   setup(props, { slots }) {
     const button = ref(null);
     const { width, height } = useElementSize(button);
-
     return () => (
       <button
         class={`
@@ -59,6 +58,7 @@ export default defineComponent({
           class={`
             absolute
             inset-0
+            pointer-events-none
           `}
         >
           <svg width={width.value} height={height.value}></svg>

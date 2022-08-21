@@ -56,6 +56,14 @@ importers:
       vue: 3.2.37
       vue-eslint-parser: 9.0.3_eslint@8.22.0
 
+  package/docs:
+    specifiers:
+      docs: workspace:^1.0.0
+      w-ui-package: workspace:^1.0.0
+    dependencies:
+      docs: 'link:'
+      w-ui-package: link:../w-ui-package
+
   package/w-ui-package:
     specifiers:
       '@iconify-json/ic': ^1.1.8

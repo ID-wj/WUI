@@ -8,9 +8,9 @@ import WButton from "./button";
 createApp({
   template: `
     <div>
-      <WButton color="blue">普通</WButton>
-      <WButton color="green">普通</WButton>
-      <WButton color="gray" icon="search" >普通</WButton>
+      <WButton color="blue" size="large"><div>普通</div></WButton>
+      <WButton color="green" size="medium">普通</WButton>
+      <WButton color="gray" icon="search"  size="small">普通</WButton>
       <WButton color="pink" icon="search" ></WButton>
     </div>
   `,

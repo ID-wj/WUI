@@ -26,10 +26,13 @@ const icons = [
   "share",
 ];
 
+const sizes = ["lg", "sm", "xs"];
+
 const safelist = [
   ...colors.map((v) => `bg-${v}-500`),
-  ...colors.map((v) => `hover:bg-${v}-700`),
+  ...colors.map((v) => `hover:bg-${v}-4`),
   ...icons.map((v) => `i-ic-baseline-${v}`),
+  ...sizes.map((v) => `text-${v}`),
 ];
 
 export default () =>
